@@ -522,15 +522,15 @@ const DataTableCrypto = () => {
                                             field="transactionDate" style={{minWidth: '5rem'}}
                                             body={dateBodyTemplate}/>
 
-                                    <Column field="currencyFrom" header="Currency From" style={{minWidth: '6rem'}}/>
+                                    <Column field="currencyFrom" sortable header="Currency From" style={{minWidth: '6rem'}}/>
 
-                                    <Column field="amount1" header="Amount 1" style={{minWidth: '6rem'}}/>
+                                    <Column field="amount1" sortable header="Amount 1" style={{minWidth: '6rem'}}/>
 
-                                    <Column field="currency2" header="Currency To" style={{minWidth: '6rem'}}/>
+                                    <Column field="currency2" sortable header="Currency To" style={{minWidth: '6rem'}}/>
 
-                                    <Column field="amount2" header="Amount 2" style={{minWidth: '6rem'}}/>
+                                    <Column field="amount2" sortable header="Amount 2" style={{minWidth: '6rem'}}/>
 
-                                    <Column header="Type"
+                                    <Column header="Type" sortable
                                             field="conversionType" style={{minWidth: '5rem'}}
                                             body={typeBodyTemplate}/>
                                 </DataTable>
