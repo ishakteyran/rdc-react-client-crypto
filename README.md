@@ -57,7 +57,7 @@ To run this project, you'll need to have the following installed:
 
 1. Clone the repo :
    ```sh
-   git clone https://github.com/ishakteyran/redacre-react-client-crypto.git
+   git clone https://github.com/ishakteyran/rdc-react-client-crypto.git
    ```
 2. Install dependencies (use `sudo` if required) :
 
